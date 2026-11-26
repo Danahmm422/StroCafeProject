@@ -1,0 +1,147 @@
+
+ body {
+  background-color: #fdebd8;
+
+}
+li{
+color: #333;
+}
+p {
+  color: #d43d3d;
+   padding-left:  16px;
+ font-family: "Croissant One", Croissant+One;
+}
+h2 {
+  color: #6ea88b;
+  padding-left:  30px;
+	font-size: 18px;
+}
+
+h3 {
+  color: #333;
+  padding-left:  30px;
+}
+header {
+  background-color: #FF908B;
+  text-align: center;
+  padding: 10px;
+}
+footer {
+  background-color: #d43d3d;
+  text-align: center;
+  padding: 20px;
+  height: 50%;
+}
+.column {
+  float: center;
+  width: 100%;
+  padding: 15px;
+  background-color: #fdebd8;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  display: inline-flex;
+  font-size: 16px;
+    font-family: "Croissant One", Arial;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #A61B34;
+}
+
+.dropdown-content {
+  display: none;
+  /* position: absolute; */
+  background-color: #D9C8BF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.container{
+    margin: auto;
+    margin-top: 20px;
+
+}
+.col-md-, .col-lg-4{
+    margin-bottom: 20px;
+}
+.sty{
+    font-size: 18px !important;
+    color: black !important;
+}
+.num{
+    width: 80px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+.uk-border-circle{
+    width: 100px !important;
+    height: 100px !important;
+}
+.fa-cart-arrow-down{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.btn-primary
+{
+  color: #fff;
+  background-color: #6ea88b;
+}
